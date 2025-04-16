@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO-ADASHE</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function toggleTick(btn) {
+          btn.textContent = btn.textContent === '✅' ? '' : '✅';
+        }
+      </script>
+</head>
+<body>
+    <header>
+
+    </header>
+    <br>
+    <br>
+    <main>
+    <section class="border-[1px] border-black rounded-2xl mx-10 py-5 bg-blue-200">
+        <div class="text-4xl font-bold text-center pt-5">To-Do List</div>
+        <div class="text-center pt-4">
+            <input 
+            type="text" 
+            placeholder="Add a new task" 
+            class="border border-gray-700 rounded px-4 py-2 w-[300px] placeholder-gray-400"
+          />
+          <button class="border-black border-[1px] h-[40px] w-[50px] rounded-[4px]">Add</button>
+                        
+        </div>
+        <div class="pt-10 pl-[440px]">
+        <div class="flex text-center items-center gap-5">
+            <button 
+            onclick="toggleTick(this)" 
+            class="w-5 h-[20px] border-[1px] border-black rounded flex items-center justify-center text-xl"
+          ></button>
+          <article class="text-xl">Buy groceries</article>
+        </div>
+        <br>
+        <div class="flex text-center items-center gap-5">
+            <button 
+            onclick="toggleTick(this)" 
+            class="w-5 h-[20px] border-[1px] border-black rounded flex items-center justify-center text-xl"
+          ></button>
+          <article class="text-xl">Complete Assignment</article>
+        </div>
+        <br>
+        <div class="flex text-center items-center gap-5">
+            <button 
+            onclick="toggleTick(this)" 
+            class="w-5 h-[20px] border-[1px] border-black rounded flex items-center justify-center text-xl"
+          ></button>
+          <article class="text-xl">Finish design for new website</article>
+        </div>
+        <br>
+        <div class="flex text-center items-center gap-5">
+            <button 
+            onclick="toggleTick(this)" 
+            class="w-5 h-[20px] border-[1px] border-black rounded flex items-center justify-center text-xl"
+          ></button>
+          <article class="text-xl">Go to gym</article>
+        </div>
+        <br>
+        <div class="flex text-center items-center gap-5">
+            <button 
+            onclick="toggleTick(this)" 
+            class="w-5 h-[20px] border-[1px] border-black rounded flex items-center justify-center text-xl"
+          ></button>
+          <article class="text-xl">Eat and sleep</article>
+        </div>
+    </div>
+   
+
+
+
+
+</section>
+<br>
+<br>
+<br>
+    <section class="border-[1px] border-black rounded-2xl mx-10 py-5 bg-green-200" >
+        
+        <div class="text-4xl font-bold text-center pt-5 pb-4">Adashe</div>
+       <div class="gap-[5px] pl-[100px] flex">
+        <input 
+            type="text" 
+            placeholder="NAME" 
+            class="border border-gray-700 rounded px-4 py-2 w-[300px] placeholder-gray-600"
+          />
+          <input 
+            type="number" 
+            placeholder="ID" 
+            class="border border-gray-700 rounded px-4 py-2 w-[300px] placeholder-gray-600"
+          />
+
+          <input 
+          type="number" 
+          placeholder="AMOUNT" 
+          class="border border-gray-700 rounded px-4 py-2 w-[300px] placeholder-gray-600"
+        />
+        <button class="border-black border-[1px] h-[40px] w-[50px] rounded-[4px]">Add</button>
+
+       </div>
+       <div class="gap-[20px] pl-[100px] pt-5 ">
+        <p class="text-2xl font-bold">Update Amount</p>
+        <input 
+            type="number" 
+            placeholder="ID" 
+            class="border border-gray-700 rounded px-4 py-2 w-[300px] placeholder-gray-600"
+          />
+          <input 
+            type="number" 
+            placeholder="New Amount" 
+            class="border border-gray-700 rounded px-4 py-2 w-[300px] placeholder-gray-600"
+          />
+
+       </div>
+       <div class="gap-[20px] pl-[100px] pt-5 ">
+        <p class="text-2xl font-bold">Delete Member</p>
+
+      <input 
+      type="number" 
+      placeholder="ID" 
+      class="border border-gray-700 rounded px-4 py-2 w-[300px] placeholder-gray-600"
+    />
+    <button class="border-black border-[1px] h-[40px] w-[60px] rounded-[4px] p-2">Delete</button>
+
+   </div>
+   <div class="gap-[20px] pl-[100px] pt-5 ">
+    <p class="text-2xl font-bold">Delete Member</p>
+    <span class="">   
+         <button class="border-black border-[1px] h-[25px] w-[80px] rounded-[4px]  text-sm font-bold">View All</button>
+   
+    </span>
+
+   </div>
+   <div class="gap-[20px] pl-[100px] pt-2">
+    <textarea name="" class="border-[1px] border-black w-[980px] h-[200px]" id=""></textarea>
+   </div>
+    
+
+
+
+    </section>
+</main>
+</body>
+</html>
